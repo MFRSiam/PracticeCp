@@ -1,30 +1,41 @@
-#include <string>
 #include <iostream>
-#include <algorithm>
+#include <string>
 
-using namespace std;
+void toLower(std::string &s)
+{
+    for (char &c : s)
+    {
+        c = std::tolower(c);
+    }
+}
 
 int main()
 {
-    string a, b;
+    std::string a, b;
     std ::cin >> a >> b;
-
-    transform(a.begin(), a.end(), a.begin(), ::tolower);
-    transform(b.begin(), b.end(), b.begin(), ::tolower);
-
+    toLower(a);
+    toLower(b);
     int sumA = 0, sumB = 0;
 
-    for (int i = 0; i < a.length(); i++)
-    {
-        sumA += (a[i] - '0');
-        sumB += (b[i] - '0');
+    bool flag = false;
+    for (int i = 0; i < a.length(); i++){
+        if(a[i]!=b[i]){
+            if(a > b){
+                std ::cout << "1\n";
+                flag = true;
+                break;
+            }else{
+                std ::cout << "-1\n";
+                flag = true;
+                break;
+            }
+        }
+    }
+    
+
+    if(!flag){
+        std::cout << "0\n";
     }
 
-    if (sumA < sumB)
-        std ::cout << "-1\n";
-    else if (sumA > sumB)
-        std ::cout << "1\n";
-    else
-        std ::cout << "0\n";
     return EXIT_SUCCESS;
 }

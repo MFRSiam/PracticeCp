@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"io"
 	"math"
 	"os"
 )
@@ -26,6 +27,7 @@ func main() {
 				found_x = i
 				found_y = j
 			}
+			writer.Reset(io.Discard)
 		}
 	}
 	for i := 0; i < 5; i++ {
