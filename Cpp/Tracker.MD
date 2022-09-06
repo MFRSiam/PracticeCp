@@ -8,10 +8,8 @@
 
 - No Global Variables unless necessary 
 
-- No Competitive Coding Macros
+- **No Competitive Coding Macros**
 
 - Fast IO Usage should be well Explained
-
-
 
 
