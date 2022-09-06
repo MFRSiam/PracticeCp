@@ -15,8 +15,6 @@ int main()
     std ::cin >> a >> b;
     toLower(a);
     toLower(b);
-    int sumA = 0, sumB = 0;
-
     bool flag = false;
     for (int i = 0; i < a.length(); i++){
         if(a[i]!=b[i]){
