@@ -12,6 +12,6 @@ Language Implementing right now
 
 - Cpp
 
-- Go
+- Go (2nd Priority)
 
-- Rust
+- Rust (3rd Priority)
