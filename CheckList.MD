@@ -10,7 +10,7 @@
 
 - [ ] Practice
 
-- [ ] Practice
+- [x] Practice
 
 #### Life Check-List
 
