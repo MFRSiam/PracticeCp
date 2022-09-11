@@ -18,7 +18,7 @@ int main()
     bool flag = false;
     for (int i = 0; i < a.length(); i++){
         if(a[i]!=b[i]){
-            if(a > b){
+            if(a[i] > b[i]){
                 std ::cout << "1\n";
                 flag = true;
                 break;
