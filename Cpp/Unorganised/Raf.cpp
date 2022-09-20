@@ -1,25 +1,20 @@
-#include <bits/stdc++.h>
-
+#include<bits/stdc++.h>
 using namespace std;
-
-#define endl "\n"
-
+#define pi acos(-1)
 int main()
 {
-    int t;
-    cin >> t;
-    
-    while(t--)
+    int test_cases;
+    cin>>test_cases;
+    int i;
+    for(i=1;i<=test_cases;i++)
     {
-        int a;
-        cin >> a;
-        if(a>10)
-        {
-            cout << 10 << " " << a-10 << endl;
-        }
-        else
-            cout << 1 << " " << a-1 << endl;
+    double R;
+    int n;
+    cin>>R>>n;
+    double angle=pi/n;
+    double sin_angle=sin(angle);
+    double r=(R*sin_angle)/(1+sin_angle);
+    cout<<"Case "<<i<<": ";
+    printf("%.6f\n",r);
     }
-
-    return 0;
 }

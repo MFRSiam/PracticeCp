@@ -13,8 +13,6 @@
 
 - Fast IO Usage should be well Explained
 
-
-
 Beginner Section ✔
 
 - [CF 282 A](https://codeforces.com/problemset/problem/282/A) ✔
@@ -45,5 +43,15 @@ Greedy Section (In Progress)
 - [CF 1406 B](https://codeforces.com/problemset/problem/1406/B)
 - [CF 1236 C](https://codeforces.com/contest/1236/problem/C)
 - [CF 1251 B](https://codeforces.com/contest/1251/problem/B)
+
+
+
+Some Notes From For The Unorganized Folder is that some code is from Light Oj and Not Named Properly Which Will be Named Properly.
+
+
+
+
+
+
 
 
